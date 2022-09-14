@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <title>TK Photography</title>
+            <meta charset="utf-8">
+            <meta name="author" content="Mindy Chu">
+            <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>TK Photography</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#top">^<br>Top</a></li>
+                        </ul>
+                    </nav>
+            </header>
+        </div>
+        <main>
+                <div>
+                    <img src="TK.png" alt="man capturing photo as the sun breaks the horizon" id="first">
+                </div>
+                <section id="about">
+                    <h2 id="title">About</h2>
+                    <p id="paragraph">Hello!<br>I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world.</p>
+                </section>
+            <section class="gallery">
+            <h2>Gallery</h2>
+            <p>Here are some highlights of my work. The locations and year are in the caption.</p>
+                <div id="row1">
+                        <figure class="container">
+                            <img src="Chile.png" alt="Photos of waves crashing on shore during sunset" >
+                            <figcaption id="chile">Chile, 2001</figcaption>
+                        </figure>
+                    <figure class="container">
+                        <img src="Guatemala.png" alt="Mountain ocean view with a field of lavender flowers in the foreground with a purple sunset">
+                        <figcaption id="guatemala">Guatemala, 1997</figcaption>
+                    </figure>
+                
+                    <figure class="container">
+                        <img src="Hawaii.png" alt="">
+                        <figcaption id="hawaii">Hawaii, 2010</figcaption>
+                    </figure>
+                </div>
+                <div id="row2">
+                    <figure class="container">
+                        <img src="Iran.png" alt="">
+                        <figcaption id="iran">Iran, 1999</figcaption>
+                    </figure>
+                
+                    <figure class="container">
+                        <img src="Ireland.png" alt="">
+                        <figcaption id="ireland">Ireland, 2012</figcaption>
+                    </figure>
+                
+                    <figure class="container">
+                        <img src="Italy.png" alt="">
+                        <figcaption id="italy">Italy, 2015</figcaption>
+                    </figure>
+                </div>
+                <div id="row3">
+                    <figure class="container">
+                        <img src="Moab-Desert.png" alt="">
+                        <figcaption id="moab">Moab Desert, 2020</figcaption>
+                    </figure>
+                
+                    <figure class="container">
+                        <img src="Rocky-Mountains.png" alt=""> 
+                        <figcaption id="rocky">Rocky Mountains, 2009</figcaption>
+                    </figure>
+            
+                    <figure class="container">
+                        <img src="Switzerland.png" alt="">
+                        <figcaption id="switzerland">Switzerland, 2014</figcaption>
+                    </figure>
+                </div>
+                <div id="row4">
+                    <figure class="container">
+                        <img src="UK.png" alt="">
+                        <figcaption id="uk">UK, 2005</figcaption>
+                    </figure>
+                
+                    <figure class="container">
+                        <img src="USA.png" alt="">
+                        <figcaption id="usa">USA, 2021</figcaption>
+                    </figure>
+                
+                    <figure class="container">
+                        <img src="Wyoming.png" alt="">
+                        <figcaption id="wyoming">Wyoming, 2021</figcaption>
+                    </figure>
+                </div>     
+            </section>
+        </main>
+        <section id="contact">
+            <div>
+                <h2>Contact</h2>
+                <p>Please fill out this form and I’ll connect with you soon.</p>
+            </div>
+    <!--Your contact information-->
+            <div id="info">
+            <form id="form" method="post">
+                <label for="myName">NAME</label><br>
+                <input type="text" required placeholder="YOUR FULL NAME" name="myName" id="myName"><br>
+
+                <label for="myEmail">EMAIL</label><br>
+                <input type="text" required placeholder="ENTER YOUR EMAIL ADDRESS" name="myEmail" id="myEmail"><br>
+
+                <label for="myMessage">MESSAGE</label><br>
+                <input type="text" placeholder="WHAT CAN I HELP YOU WITH?" name="myMessage" id="myMessage"><br>
+                
+                <input type="submit" id="mySubmit" value="Submit">
+            </form>
+            </div>
+        </section>
+        <footer>
+            <p>Copyright 2021 TK Photography</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,295 @@
+html{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: white;
+}
+
+#wrapper{
+    width: 1310px;
+    margin: 0px auto;
+    padding-bottom: 20px;
+}
+
+h1, nav{
+    display: inline;
+}
+
+h1{
+    color:#007d7b;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+nav{
+    float:right;
+}
+
+nav li{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 20px;
+}
+
+ul:last-child{
+    overflow-wrap: break-word;
+}
+
+nav a:hover{
+    color:#007d7b;
+}
+
+[href="#top"]:hover{
+    background-color: white;
+}
+
+[href="#top"] {
+    background-color: #007d7b;
+    color: white;
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+}
+
+main{
+    padding: 16px;
+    width: 1310px;
+    margin: 0px auto;
+}
+
+#first{
+    width:850px;
+    float: left;
+}
+
+#title{
+    text-transform: uppercase;
+}
+
+#about {
+    text-align: right;
+    width: 420px;
+    height: 186px;
+    display: inline;
+    float: right;
+}
+
+#about h2{
+    font-size: 40px;
+    margin: 0px;
+}
+#about p{
+    font-size: 20px;
+    margin: 0px;
+}
+
+.gallery h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0px auto;
+}
+.gallery p{
+    font-size: 20px;
+    margin: 0px auto;
+}
+
+
+#grid{
+    margin: 0 auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+figure{
+    margin: 0 auto;
+    position: relative;
+    display:inline-block;
+}
+
+figure:nth-child(1){
+    padding-left: 8px;
+    padding-top: 16px;;
+}
+
+figure:nth-child(2){
+    padding-left: 16px;
+}
+
+figure:nth-child(3){
+    padding-left: 16px;
+}
+
+#row1, #row3, #row4{
+    width: 420px;
+    height: 281px;
+    display:inline;
+}
+
+#row2{
+    height: 630px;
+    width: 420px;
+    display:inline;
+}
+
+
+figcaption{
+    text-transform: uppercase;
+    font-size: 16px;
+    position: relative;
+}
+
+.cotainer{
+    position: relative;
+}
+
+#chile{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+#guatemala{
+    position: absolute;
+    top:10px;
+    left: 20px;
+    color: white;
+}
+
+#hawaii{
+    position: absolute;
+    bottom:10px;
+    right: 20px;
+    color: white;
+}
+
+#iran{
+    position: absolute;
+    top:20px;
+    left: 10px;
+    color: black;
+}
+
+#ireland{
+    position: absolute;
+    bottom:10px;
+    right: 20px;
+    color: white;
+}
+
+#italy{
+    position: absolute;
+    bottom:10px;
+    left: 20px;
+    color: white;
+}
+#moab{
+    position: absolute;
+    bottom:10px;
+    right: 20px;
+    color: white;
+}
+
+#rocky{
+    position: absolute;
+    top:10px;
+    left: 20px;
+    color: black;
+}
+
+#switzerland{
+    position: absolute;
+    bottom:10px;
+    left: 20px;
+    color: black;
+}
+
+#uk{
+    position: absolute;
+    bottom:10px;
+    right: 20px;
+    color: white;
+}
+
+#usa{
+    position: absolute;
+    top:10px;
+    left: 20px;
+    color: white;
+}
+
+
+#wyoming{
+    position: absolute;
+    top:10px;
+    left: 20px;
+    color: white;
+}
+
+#contact{
+    color: white;
+    width: 850px;
+    margin: 0px auto;
+    display:block;
+    text-align: center;
+}
+
+input{
+    width:850px;
+    height: 40px;
+}
+
+#info{
+    width: 850px;
+    margin: 0 auto;
+}
+
+#form{
+    text-align: left;
+}
+
+input[type=text]{
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+
+
+::placeholder{
+    color: #007d7b;
+    text-align: left;
+}
+
+input[type=submit]{
+    margin: 0 auto;
+}
+
+#mySubmit{
+    background-color: #007d7b;
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+    width: 400px;
+    display: block;
+    text-align: center;
+    
+}
+
+
+footer{
+    text-transform: uppercase;
+    color: white;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 16px;
+}
